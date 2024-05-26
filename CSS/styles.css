@@ -1,0 +1,85 @@
+/* Reset básico para eliminar márgenes y paddings predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/Images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg);
+    background-size: cover;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Imagen de perfil */
+.imagen-portafolio {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.class-image {
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* Descripción */
+.description {
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Jost Regular";
+    font-size: 150%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+/* Botones */
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.d-grid.gap-6 {
+    padding-left: 20%;
+    padding-right: 20%;
+    gap: 20px;
+    font-family: "Jost Regular";
+    padding-bottom: 5%;
+}
+
+/* Logos en los botones */
+.logo {
+    width: 25px;
+    margin-left: 10px;
+    float: right;
+    filter: invert(1);
+}
+
+/* Ajuste para los botones */
+.btn-primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.nombre{
+    text-align: center;
+    font-family: "Poetsen One";
+}
+
+@font-face{
+    font-family: "Poetsen One";
+    src: url(/fonts/PoetsenOne-Regular.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: "Jost Regular";
+    src: url(/fonts/Jost/static/Jost-Regular.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
